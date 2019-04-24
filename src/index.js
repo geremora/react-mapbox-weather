@@ -9,5 +9,5 @@ ReactDOM.render(
     (<Provider store={store}>
         <App/>
     </Provider>),
-    document.getElementById('root') || document.createElement('div') // for testing purposes
+    document.getElementById('root')
 );

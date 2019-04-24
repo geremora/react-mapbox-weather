@@ -8,19 +8,20 @@ React webapp based on the following required functionality:
 
 - When a user clicks on a given location, the webapp should display the current weather data for that location
 
-
-Note:
+Side Notes:
 
 - I added a units (F/C) menu changer
+
+- This example is simple enough to not really need react/redux, but the process shown will scale better.
 
 ## Tools/Tech
 
 - MapBox
 - OpenWeather API
-- Axios
-- Redux
-- Redux-thunk
-
+- Axios (https://github.com/axios/axios)
+- Redux (https://github.com/reduxjs/redux)
+- Redux-thunk (https://github.com/reduxjs/redux-thunk)
+- Semantic UI (https://semantic-ui.com/)
 
 ## Available Scripts
 
@@ -38,3 +39,9 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## TODO
+
+- Improve test cases. Test mapbox?
+- Add spinner loading in each API call.
+- Popup as React component?

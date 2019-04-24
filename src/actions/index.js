@@ -5,7 +5,7 @@ const ROOT_URL = `http://api.openweathermap.org/data/2.5/weather?appid=${API_KEY
 
 export const FETCH_WEATHER = "FETCH_WEATHER";
 export const CHANGE_UNITS = "CHANGE_UNITS";
-export const API_ERROR = 'api_error';
+export const API_ERROR = 'API_ERROR';
 
 export const fetchWeather = (lat, long, unit) => async dispatch => {
     try {

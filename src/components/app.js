@@ -10,8 +10,6 @@ const ZOOM = 1.5;
 const STYLE_ID = 'streets-v9';
 
 export default class App extends Component {
-
-
     render() {
         return (
             <div>

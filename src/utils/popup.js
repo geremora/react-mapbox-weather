@@ -1,9 +1,11 @@
 export default function popupCreator(weatherData, unit) {
     if (!weatherData) return null;
+
     const temp = weatherData.main.temp;
     const humidity = weatherData.main.humidity;
     const pressure = weatherData.main.pressure;
     const tempUnit = unit==='imperial'?'℉':'℃';
+
     const html = `
      <div>
       <strong className='mr3'>Temp:</strong>

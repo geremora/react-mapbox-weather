@@ -9,7 +9,7 @@ const INITIAL_STATE = {
 export default function(state = INITIAL_STATE, action) {
     switch (action.type) {
         case FETCH_WEATHER:
-            return { ...state, weatherData: action.payload.data };
+            return { ...state, weatherData: action.payload.data, errorMessage: ''};
         case API_ERROR:
             return { ...state, errorMessage: action.payload };
         default:
