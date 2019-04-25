@@ -1,3 +1,7 @@
+/*TODO
+- Improve units handling.
+- Convert Popup on React Component?
+ */
 export default function popupCreator(weatherData, unit) {
     if (!weatherData) return null;
 

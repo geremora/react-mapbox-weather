@@ -5,7 +5,12 @@ import {bindActionCreators} from "redux";
 import {fetchWeather, changeUnits} from "../actions/index";
 import popupCreator from "../utils/popup";
 
-
+/**
+ * TODO
+ * - Current lat & lng on reducer using move event
+ * - Improve handling of modal help (check dont show again,etc). Improve text and add image.
+ * - Add style map changer (sat, streets, etc)
+ */
 export class Map extends Component {
 
     constructor(props) {
