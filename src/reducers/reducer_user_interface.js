@@ -1,4 +1,5 @@
-import {CHANGE_UNITS} from "../actions/index";
+
+import {CHANGE_UNITS} from "../actions/types";
 
 const INITIAL_STATE = {
     units: 'imperial',

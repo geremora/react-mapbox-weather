@@ -6,7 +6,7 @@ import {fetchWeather, changeUnits} from "../actions/index";
 import popupCreator from "../utils/popup";
 
 
-class Map extends Component {
+export class Map extends Component {
 
     constructor(props) {
         super(props);
@@ -15,7 +15,7 @@ class Map extends Component {
         this.onClickUnitsMenu = this.onClickUnitsMenu.bind(this);
         this.onClickModal = this.onClickModal.bind(this);
         this.popup = null; // reference to the open popup.
-        this.state = { showHelp:true };
+        this.state = { showHelp:true }; // show the help modal window in the start
     }
 
     onClickMap(e) {
